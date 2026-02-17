@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Trained Models (LARGE FILES)
+*.keras
+*.h5
+*.pt
+*.pth
+*.model
+*.pkl
+*.joblib
+convnext/
+densenet/
+efficientnetv2/
+dinov2/
+inception/
+mobilenet/
+mobilenetv3/
+resnet50/
+swin/
+vgg16/
+*.weights
+best_model_*
+saved_models/
+checkpoints/
+
+# Datasets (LARGE FILES)
+dataset/
+dataset1/
+dataset1_stability_model/
+stabDataset/
+data/
+raw_data/
+*.zip
+*.rar
+*.tar.gz
+
+# Backend compiled/cache
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+
+# Frontend build outputs (if any)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Generated files
+*.ipynb_checkpoints/
+.jupyter/
+.ipython/
